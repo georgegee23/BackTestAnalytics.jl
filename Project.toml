@@ -1,7 +1,18 @@
 name = "BackTestAnalytics"
 uuid = "59120fb4-9ea6-435a-8249-4052a76047ab"
 authors = ["georgeg <georgegi86@gmail.com> and contributors"]
-version = "1.0.0-DEV"
+version = "0.1.0-DEV"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataFramesMeta = "1313f7d8-7da2-5740-9ea0-a2ca25f37964"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+RollingFunctions = "b0e4dd01-7b14-53d8-9b45-175a3e362653"
+ShiftedArrays = "1277b4bf-5013-50f5-be3d-901d8477a67a"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+TidierData = "fe2206b3-d496-4ee9-a338-6a095c4ece80"
+TimeSeries = "9e3dc215-6440-5c97-bce1-76c03772f85e"
 
 [compat]
 julia = "1.6.7"
@@ -11,3 +22,5 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
 test = ["Test"]
+
+
