@@ -49,7 +49,7 @@ function plot_factor_distribution(factors::TimeArray;
 end
 
 
-function plot_performance_table(table::DataFrame; kwargs...)
+function plot_performance_table(table::DataFrame)
 
     """
     Compute and plot table with summary performance statistics for factor quantiles.
