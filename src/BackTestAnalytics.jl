@@ -1,7 +1,7 @@
 module BackTestAnalytics
 
 using TimeSeries
-using DaraFrames
+using DataFrames
 using StatsBase
 using Plots, GR
 
