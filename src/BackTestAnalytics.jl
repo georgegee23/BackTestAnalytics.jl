@@ -2,7 +2,7 @@ module BackTestAnalytics
 
 using TimeSeries
 using StatsBase
-using Plots
+using Plots, GR
 
 # Write your package code here.
 
