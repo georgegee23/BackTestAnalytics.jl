@@ -5,6 +5,8 @@ using DataFrames
 using StatsBase
 using Plots, GR
 
+include("https://github.com/georgegee23/TimeSeriesFunk.jl")
+
 export rows_spearmanr, rows_pearsonr, spearman_factor_decay, mean_autocor, rolling_mean_autocor,
     plot_factor_distribution, plot_performance_table, 
     quantile_return, compute_quantiles_returns, 
