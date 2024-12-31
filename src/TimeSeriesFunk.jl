@@ -1,16 +1,3 @@
-module TimeSeriesFunk
-
-# Write your package code here.
-
-########################################## Functions for TimeSeries Manipulations ###########################################################
-
-using TimeSeries
-using StatsBase
-using DataFrames
-
-export row_mean, column_mean, rowwise_ordinalrank, rowwise_competerank, rowwise_tiedrank, rowwise_denserank,
-    rowwise_ordinal_pctrank, rowwise_tied_pctrank, 
-    rowwise_quantiles, rowwise_tiedquantiles, rowwise_count, rowwise_countall
 
 ####### TIME ARRAY MANIPULATIONS ##########################################################
 
@@ -396,4 +383,4 @@ end
 
 ################################### THE END ######################################################################################
 
-end
+
