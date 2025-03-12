@@ -1,8 +1,7 @@
 
 ####### PLOTS FOR ANALYSIS ##########################################################
 
-function plot_factor_distribution(factors::TimeArray; 
-    bins::Int = 20)
+function plot_factor_distribution(factors::TimeArray; bins::Int = 20)
 
     """
     Plots the distribution of factor scores over time and as a histogram.
@@ -49,7 +48,7 @@ function plot_factor_distribution(factors::TimeArray;
 end
 
 
-function plot_performance_table(table::DataFrame)
+function plot_performance_table(table::DataFrames)
 
     """
     Compute and plot table with summary performance statistics for factor quantiles.
